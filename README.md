@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<body> 
+    <button onclick="location.href='avengers.html'">Avengers</button>
+    <button onclick="location.href='ultron.html'">Age of Ultron</button>
+    <button onclick="location.href='infinity-war.html'">Infinity War</button>
+    <button onclick="location.href='endgame.html'">Endgame</button>
+    <button onclick="location.href='upcoming.html'">Upcoming</button>
+    <button onclick="location.href='box_office.html'">Box Office</button>
+<body>
