@@ -1,114 +1,129 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif; /* Sets the font */
+  margin: 0; /* Removes default margin */
+  background-color: #f0f0f0; /* Light gray background */
 }
 
+/* Style for header and footer */
 header, footer {
-  background-color: #1c1c1c;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
+  background-color: #1c1c1c; /* Dark background color */
+  color: white; /* White text */
+  display: flex; /* flexbox layout */
+  justify-content: space-between; /* Spacing out items evenly */
+  align-items: center; /* items are vertically centered */
+  padding: 10px 20px; /* Padding inside header/footer */
 }
 
+/* Style for buttons in the header and elements with class "help" */
 header button, .help {
-  background: #444;
-  color: white;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  font-size: 16px;
+  background: #444; /* Dark gray background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px; /* Padding inside button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
 }
 
+/* Main content styling */
 main {
-  text-align: center;
-  padding: 40px 20px;
-  background: white;
-  max-width: 800px;
-  margin: 30px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center; /* Center-align text */
+  padding: 40px 20px; /* Padding inside main */
+  background: white; /* White background */
+  max-width: 800px; /* Max width of main section */
+  margin: 30px auto; /* Center main section with margin */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
 }
 
+/* Style for images inside main */
 main img {
-  width: 100%;
-  max-width: 550px;
-  height: auto;
-  margin-top: 20px;
-  border-radius: 10px;
+  width: 100%; /* Responsive width */
+  max-width: 550px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Space above image */
+  border-radius: 10px; /* Rounded corners */
 }
 
+/* Style for footer navigation list */
 footer nav ul {
-  list-style: none;
-  padding: 0px 325px;
-  display: flex;
-  gap: 15px;
-  font-size: 20px;
-  text-align: center;
+  list-style: none; /* Remove bullet points */
+  padding: 0px 325px; /* Horizontal padding */
+  display: flex; /* Flexbox layout */
+  gap: 15px; /* Gap between list items */
+  font-size: 20px; /* Font size */
+  text-align: center; /* Center text */
 }
 
+/* Style for links in footer nav */
 footer nav ul li a {
-  color: white;
-  text-decoration: none;
+  color: white; /* White text */
+  text-decoration: none; /* Remove underline */
 }
 
+/* Style for main headings */
 h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 32px; /* Heading font size */
+  margin-bottom: 10px; /* Space below heading */
 }
 
+/* Style for paragraph text */
 p {
-  font-size: 18px;
-  color: #333;
+  font-size: 18px; /* Font size */
+  color: #333; /* Dark gray text */
 }
 
+/* Container for a grid of buttons */
 .button-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 2 rows of 3 items */
-  gap: 30px;
-  max-width: 1000px;
-  margin: auto;
+  display: grid; /* Grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 30px; /* Gap between buttons */
+  max-width: 1000px; /* Max container width */
+  margin: auto; /* Center container */
 }
 
+/* Row layout for label and button pairs */
 .button-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding-top: 125px;
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Vertical alignment */
+  justify-content: space-between; /* Spread items */
+  gap: 12px; /* Space between items */
+  padding-top: 125px; /* Top padding */
 }
 
+/* Style for label text */
 .label {
-  flex: 1;
-  font-size: 20px;
-  color: #444;
-  text-align: right;
-  padding-right: 10px;
+  flex: 1; /* Take up remaining space */
+  font-size: 20px; /* Font size */
+  color: #444; /* Text color */
+  text-align: right; /* Align text to right */
+  padding-right: 10px; /* Space after label */
 }
 
+/* Style for buttons */
 .button {
-  flex-shrink: 0;
-  padding: 18px 20px;
-  font-size: 16px;
-  border-radius: 8px;
-  background-color: #e0e0e0;
-  border: 2px solid black;
-  cursor: pointer;
+  flex-shrink: 0; /* Prevent shrinking */
+  padding: 18px 20px; /* Padding inside button */
+  font-size: 16px; /* Font size */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #e0e0e0; /* Light gray background */
+  border: 2px solid black; /* Solid black border */
+  cursor: pointer; /* Pointer on hover */
 }
 
+/* Hover effect for buttons */
 .button_hover:hover {
-  background-color: #c0c0c0;
-}
-a {
-  text-decoration: none;
-  color: inherit;
+  background-color: #c0c0c0; /* Darker gray on hover */
 }
 
+/* Style for links */
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use inherited text color */
+}
+
+/* Prevent styling changes on hover/focus for links */
 a:hover,
 a:focus {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none; /* No underline on hover/focus */
+  color: inherit; /* Inherit color on hover/focus */
 }
-
